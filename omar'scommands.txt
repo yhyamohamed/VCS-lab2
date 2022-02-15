@@ -1,0 +1,24 @@
+//Cloning the repo
+
+$ git clone
+
+//Hassan published a branch and it was merged to the master branch so I fetched it
+
+$ git pull
+
+//Checking current branches
+$ git branch
+
+$ git branch omarBranch
+$ git checkout omarBranch
+
+
+$ echo "OmarSaysHi" >> omarfile.txt
+$ git add .
+$ git commit -m "Omar Branch"
+$ git push --set-upstream origin omarBranch
+
+//To check what's going on in other branches
+$ git fetch --all
+$ git branch --all
+
