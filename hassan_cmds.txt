@@ -1,0 +1,20 @@
+git init
+//initalization
+git pull 
+// pull from master branch
+git switch -C gameboard
+git branch
+echo "Hello World" >> Hello.txt
+git add .
+git commit -m "Hassan's Commit"
+git push -u gameboard
+//pushing my branch with my files on remote repo
+after omar's branch
+
+git fetch --all
+git branch --all
+git switch omarsBranch
+//see what omar is doing on his branch without contributing or editing
+//if i pull after omar's contribution without yahia editing terminal says
+that i am up todate
+
