@@ -1,0 +1,50 @@
+//feature Branching 
+
+init master ===> home page 
+git switch -c addLogin
+
+	**do stuff*
+git add
+git commit 
+	**add stuff**
+$ git commit -am "login page finished"
+
+git switch master 
+git merge addLogin 
+
+ git branch --all
+git merge origin/gameboard
+
+git commit 
+git log 
+git revert <commit id>
+git log 
+
+have 2 commits ahead of master (commit &revert commit )
+
+4 - git reset --hard 3147b733993b373e7ff8b9abb3ca86b9f6a2eb14
+	(or) git revert 
+
+
+5-
+Switched to branch 'addLogin'
+$ git commit -am "save"
+$ git switch master
+$ git fetch origin
+$ git reset --hard origin/master
+
+
+6-
+git log -n 5
+
+7-
+git log --graph
+
+8- 
+ git stash
+ git stash pop
+
+9-
+git diff d4a51dbb676c664969eaab87492744b074df9bad..3147b733993b373e7ff8b9abb3ca86b9f6a2eb14
+
+
