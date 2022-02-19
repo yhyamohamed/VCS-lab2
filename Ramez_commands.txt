@@ -1,0 +1,15 @@
+$ git init
+
+$ git remote add origin https://github.com/yhyamohamed/VCS-lab2
+
+$ git pull origin master
+
+$ git switch -c RamezBranch
+
+$ git add .
+
+$ git commit -m "RamezCommit"
+
+$ git fetch --all
+
+$ git push --set-upstream origin RamezBranch
