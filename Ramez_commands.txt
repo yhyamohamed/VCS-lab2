@@ -13,3 +13,24 @@ $ git commit -m "RamezCommit"
 $ git fetch --all
 
 $ git push --set-upstream origin RamezBranch
+
+$ git switch master
+
+$ git add .
+
+$ git commit -m "RamezCommitMaster"
+*** Added more cmds to the txt file ***
+$ git add .
+
+$ git commit -m "RamezCommitMasterFinal"
+*** Forgot to add the remaining cmds ***
+$ git log
+
+$ git revert HEAD
+
+$ git add .
+
+$ git commit -m "RamezCommitMasterFinallll"
+
+$ git push origin master
+
