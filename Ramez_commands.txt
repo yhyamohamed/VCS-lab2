@@ -13,3 +13,10 @@ $ git commit -m "RamezCommit"
 $ git fetch --all
 
 $ git push --set-upstream origin RamezBranch
+
+$ git switch master
+
+$ git commit -m "RamezCommitMaster"
+
+$ git push origin master
+
